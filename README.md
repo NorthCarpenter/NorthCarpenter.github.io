@@ -1,2 +1,2 @@
-# NorthCarpenter.github.io
-This is North Carpenter's personal webiste. Who knows how it works? Not me. Everyone uses templates now so I borrowed my Freinds website but it is super custom and not a template so I am figuring it out peice by peice. Huza!
+You can use this website as a template if you want but I would not suggest it. Plz don't make a pull request on my personal site unless you want to be my freind :D.
+
