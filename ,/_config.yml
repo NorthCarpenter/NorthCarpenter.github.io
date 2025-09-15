@@ -1,4 +1,18 @@
-url: "northCarpenter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "northCarpenter.github.io" # the subpath of your site, e.g. /blog
-title: "North Carpenter's Personal Website" # the name of your site, e.g. ACME Corp.
-description: "You found North's website. There are only 200 people named North (FN) in the US. Good job!" # a short description of your site
+# Site settings
+title: North Carpenter's Website
+description: North Carpenters personal website
+baseurl: "" # the subpath of your site, e.g., "/blog" if hosted in a subfolder
+url: "https://NorthCarpenter.github.io" # your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+theme: ""  # no theme
+plugins: [] # empty for now, can add plugins later
+
+# Optional: future defaults for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: null
