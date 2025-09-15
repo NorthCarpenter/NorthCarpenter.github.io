@@ -1,2 +1,1 @@
 You can use this website as a template if you want but I would not suggest it. Plz don't make a pull request on my personal site unless you want to be my freind :D.
-
