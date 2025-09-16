@@ -2,6 +2,13 @@
     Use the baseurl as a prefix for each link in the navigation data.
     Apply highlight formatting if the URL matches the current page.
 {% endcomment %}
+
+<body>
+    <h1>{{ item.name }}<h1>
+<div style="width:100%; margin-bottom: 0px">
+<span>
+<a href="/" style="text-decoration: none; color: black;"><b>North Carpenter's Website</b></a>
+</span>
 <nav>
     {%- for item in site.data.navigation %}
         <a href="{{ item.link | relative_url }}" {% if item.link == page.url %}class="current" {% endif %}>
@@ -10,3 +17,4 @@
         {% unless forloop.last %}<span> | </span>{% endunless %}
     {% endfor -%}
 </nav>
+</body>

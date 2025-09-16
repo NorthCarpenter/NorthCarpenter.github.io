@@ -10,9 +10,7 @@
   link: /
 - name: About
   link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html
+- name: Tutoring
+  link: /Tutoring.html
 - name: My Skills
   link: /my-skills.html
