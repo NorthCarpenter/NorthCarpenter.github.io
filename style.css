@@ -132,3 +132,9 @@ object.footer{
 html{
   overflow-y: scroll;
 }
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
