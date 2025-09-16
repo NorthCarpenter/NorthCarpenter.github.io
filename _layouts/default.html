@@ -10,6 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <a href="/" style="text-decoration: none; color: black;"><h1>{{ site.data.navigation.item.name }}</h1></a>
+
     <!-- RSS feed -->
     {% feed_meta %}
 
@@ -23,8 +25,6 @@
 </head>
 
 <body>
-
-    <link rel="stylesheet" href="style.css">
 
     <!-- Navigation -->
     {% include navigation.html %}
