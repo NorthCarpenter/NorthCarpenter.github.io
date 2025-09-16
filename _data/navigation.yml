@@ -6,8 +6,6 @@
 # from all the pages. Also, then titles from the page can be used, rather than setting here.
 #
 # https://jekyllrb.com/tutorials/navigation/
-- name: North Carpenter's Website
-  link: /
 - name: Tutoring
   link: /Tutoring.html
 - name: Projects
