@@ -1,9 +1,7 @@
-# Ignore Bundler files
-Gemfile.lock
-.bundle/
-
-# Ignore Jekyll build output
+# Build output locations.
 _site/
 .sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+
+# Gem files.
+vendor/
+.bundle/

@@ -1,18 +1,41 @@
-# Site settings
+### Site Metadata ###
 title: North Carpenter's Website
 description: North Carpenters personal website
 baseurl: "" # the subpath of your site, e.g., "/blog" if hosted in a subfolder
 url: "https://NorthCarpenter.github.io" # your GitHub Pages URL
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Build settings
 markdown: kramdown
 theme: ""  # no theme
 plugins: [] # empty for now, can add plugins later
 
-# Optional: future defaults for pages
+# Set layouts for posts and collections and the default layout for everything else. This
+# means the layout can be removed from frontmatter of the post and collection pages.
+# You also set your own values in defaults such as author or category.
+# https://jekyllrb.com/docs/configuration/front-matter-defaults/
+defaults:
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: "authors"
     values:
-      layout: null
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - LICENSE
+  - README.md
+  - Makefile
