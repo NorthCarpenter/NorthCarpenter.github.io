@@ -8,8 +8,6 @@
 # https://jekyllrb.com/tutorials/navigation/
 - name: Home
   link: /
-- name: About
-  link: /about.html
 - name: Tutoring
   link: /Tutoring.html
 - name: My Skills
