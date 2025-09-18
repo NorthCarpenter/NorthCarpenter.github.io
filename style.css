@@ -12,6 +12,13 @@ body{
   flex-direction:column;
 }
 
+main {
+  flex: 1;            /* fills leftover space to push footer down */
+}
+footer {
+  margin-top: auto;   /* pushes footer to the bottom when content is short */
+}
+
 a{
   margin-right:auto;
   margin-bottom:0;
@@ -145,16 +152,4 @@ html{
   margin-left: 0;    /* override centering */
   margin-right: 0;
   display: inline;   /* inline images don’t center automatically */
-}
-
-#container {
-   display:grid;
-   grid-template-rows:auto 1fr auto;
-   grid-template-columns:100%;
-
-   /* fallback height */
-   min-height:100vh;
-
-   /* new small viewport height for modern browsers */
-   min-height:100svh;
 }
