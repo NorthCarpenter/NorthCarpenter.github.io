@@ -90,3 +90,11 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+
+.footer{
+  margin-top:auto;
+}
+
+object.footer{
+	height:60px;
+}
