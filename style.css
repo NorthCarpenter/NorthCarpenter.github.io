@@ -140,3 +140,9 @@ object.footer{
 html{
   overflow-y: scroll;
 }
+
+.no-center {
+  margin-left: 0;    /* override centering */
+  margin-right: 0;
+  display: inline;   /* inline images don’t center automatically */
+}

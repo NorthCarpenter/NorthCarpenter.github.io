@@ -1,6 +1,6 @@
 ---
 layout: default
-title: North Carpenter
+title: North Carpenter's Website
 ---
 
 This is my personal website!
