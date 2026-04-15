@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/Favlogo.png">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content= "Welcome to North Carpenter’s website.">
+
+    <!-- RSS feed -->
+    {% feed_meta %}
+
+    {% seo %}
+
+    {% if jekyll.environment == "production" %}
+        <!-- Analytics tracking -->
+        <script src="{{ site.baseurl }}{% link assets/js/analytics.js %}"></script>
+    {% endif %}
+
+</head>
+
+<body>
+    <header>
+        <a href="/" style="text-decoration: none; color: black;"><h1>{{ page.title }}</h1>
+    <!-- Navigation -->
+    {% include navigation.html %}
+    </header>
+
+    <!-- Content -->
+    <main>
+    {{ content }}
+    </main>
+
+    <footer>
+    <!-- Footer -->
+    {% include footer.html %}
+    </footer>
+</body>
+
+
+
+</html>
